@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px 500px;
+}
+table {
+  width: 350px;
+  height: 350px;
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+th {
+  background-color: #fff;
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+th,
+td {
+  border: 1px solid #000;
+  padding: 5px;
+  text-align: start;
+}
